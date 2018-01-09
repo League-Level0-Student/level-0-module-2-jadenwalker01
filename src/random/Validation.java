@@ -16,12 +16,33 @@ public class Validation {
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
 		
-		System.out.println(randomNumber);
+
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
+if (randomNumber == 0)
+{
+	System.out.println( "you are awsome");
+}
+else if (randomNumber == 1)
+{
+	System.out.println( "you are cool");
+}
+else if (randomNumber == 2)
+{
+	System.out.println( "you are smart");
+}
+else if (randomNumber == 3)
+{
+	System.out.println( "you are athletic");
+}
+else 
+{
+	System.out.println( "you are good at coding");
+}
 
-		// 4. Repeat all the code above 10 times
+	// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
+
 	}
 }
